@@ -1,0 +1,14 @@
+#navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+@media (max-width: 768px) {
+  #navBar {
+    flex-direction: column;
+  }
+}
